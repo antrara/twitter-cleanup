@@ -28,7 +28,7 @@ sudo apt install python3 python3-pip -y
 ## 2⃣ Clone the Repository from GitHub
 Download the project to a local folder using:
 ```sh
-git clone https://github.com/username/twitter-cleanup.git
+git clone https://github.com/antrara/twitter-cleanup.git
 ```
 Replace `username` with your GitHub username.
 
