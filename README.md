@@ -1,86 +1,60 @@
-# Twitter Cleanup 🐦
+<center><img src="https://github.com/antrara/twitter-cleanup/assets/logo.png" alt="Logo" width="512" height="512" /></center>
 
-# Installation and Usage Guide on Kali Linux 🐧
+[![Code size](https://img.shields.io/github/languages/code-size/antrara/twitter-cleanup?style=for-the-badge)](https://img.shields.io/github/languages/code-size/antrara/twitter-cleanup) [![Followers](https://img.shields.io/github/followers/antrara?style=for-the-badge)](https://img.shields.io/github/followers/antrara) [![Forks](https://img.shields.io/github/forks/antrara/twitter-cleanup?style=for-the-badge)](https://img.shields.io/github/forks/antrara/twitter-cleanup) [![Stars](https://img.shields.io/github/stars/antrara/twitter-cleanup?style=for-the-badge)](https://img.shields.io/github/stars/antrara/twitter-cleanup)
 
-Follow these steps to install and run the Twitter Cleanup script on Kali Linux.
+# Twitter & Instagram Cleanup
 
-## 1⃣ Install Git and Python
-Before downloading the script, make sure Git and Python are installed on your system.
+Twitter & Instagram Cleanup adalah skrip otomatisasi yang memungkinkan Anda untuk:
+- Unfollow semua akun
+- Unlike semua postingan
+- Unrepost semua postingan
+- Menghapus semua komentar
+- Menghapus akun secara permanen setelah semua tindakan selesai
+- Sekarang mendukung Instagram juga!
 
-### ✅ Check if Git is installed:
-```sh
-git --version
-```
-If Git is not installed, run:
-```sh
-sudo apt update && sudo apt install git -y
-```
+> Jika Anda merasa proyek ini bermanfaat, silakan beri bintang ⭐ dan fork repository ini.
 
-### ✅ Check if Python is installed:
-```sh
-python3 --version
-```
-If Python is not installed, use:
-```sh
-sudo apt install python3 python3-pip -y
-```
+[![github-stats-card](https://kasroudra-stats-card.onrender.com/repo?user=antrara&repo=twitter-cleanup&layout=compact&theme=vue)](https://github.com/KasRoudra/github-stats-card)
 
-## 2⃣ Clone the Repository from GitHub
-Download the project to a local folder using:
-```sh
+## Installation 📥
+
+### Linux 🐧
+```bash
 git clone https://github.com/antrara/twitter-cleanup.git
-```
-Replace `username` with your GitHub username.
-
-Navigate into the project folder:
-```sh
 cd twitter-cleanup
-```
-
-## 3⃣ Install Dependencies
-Before running the script, install the required dependencies:
-```sh
 pip install -r requirements.txt
+python cleanup.py
 ```
 
-## 4⃣ Run the Script
-Once installation is complete, run the script with:
-```sh
-python3 main.py
-```
-On the first run, you will be prompted to enter your Twitter API Key. Input your credentials as follows:
-```yaml
-Enter API Key: xxxxxxxxxxxxxxxx
-Enter API Secret: xxxxxxxxxxxxxxxx
-Enter Access Token: xxxxxxxxxxxxxxxx
-Enter Access Secret: xxxxxxxxxxxxxxxx
-```
-The API Key will be automatically saved, so you don't need to enter it again in the future.
-
-## 5⃣ Use Available Features
-After logging in, you will see a menu with various options:
-
-✅ Unfollow specific accounts  
-✅ Unlike all tweets  
-✅ Unretweet all reposts  
-✅ Delete comments from your tweets  
-✅ Delete tweets since a specific date  
-✅ Logout from the API system  
-
-Select the feature you want to use by entering the corresponding menu number.
-
-## 6⃣ Logout (Remove API Key)
-If you want to remove your saved API Key, choose the Logout option from the menu or run:
-```sh
-rm .env
-```
-This will delete the file storing your API credentials.
-
-## 7⃣ Remove the Script if No Longer Needed
-If you want to remove the project from your system:
-```sh
-cd ..
-rm -rf twitter-cleanup
+### Windows 🪟
+```bash
+git clone https://github.com/antrara/twitter-cleanup.git
+cd twitter-cleanup
+pip install -r requirements.txt
+python cleanup.py
 ```
 
-Enjoy using **Twitter Cleanup** to manage your Twitter activity efficiently! 🛠️
+### MacOS 🍎
+```bash
+git clone https://github.com/antrara/twitter-cleanup.git
+cd twitter-cleanup
+python3 -m pip install -r requirements.txt
+python3 cleanup.py
+```
+
+## Features 🚀
+- ✅ Unfollow akun Twitter & Instagram
+- ✅ Unlike & unrepost semua postingan
+- ✅ Hapus semua komentar
+- ✅ Menghapus akun secara permanen
+- ✅ Mendukung login API Key langsung melalui halaman login
+
+## Contributing 🤝
+Kontribusi selalu diterima! Silakan buat pull request atau diskusi jika Anda memiliki ide baru.
+
+## License 📜
+[![License](https://img.shields.io/github/license/antrara/twitter-cleanup?style=for-the-badge)](https://github.com/antrara/twitter-cleanup/blob/main/LICENSE.md)
+
+## Star History ⭐
+[![Star History Chart](https://api.star-history.com/svg?repos=antrara/twitter-cleanup&type=Date)](https://star-history.com/#antrara/twitter-cleanup&Date)
+
