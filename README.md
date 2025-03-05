@@ -1,60 +1,81 @@
-<center><img src="https://github.com/antrara/twitter-cleanup/assets/logo.png" alt="Logo" width="512" height="512" /></center>
-
-[![Code size](https://img.shields.io/github/languages/code-size/antrara/twitter-cleanup?style=for-the-badge)](https://img.shields.io/github/languages/code-size/antrara/twitter-cleanup) [![Followers](https://img.shields.io/github/followers/antrara?style=for-the-badge)](https://img.shields.io/github/followers/antrara) [![Forks](https://img.shields.io/github/forks/antrara/twitter-cleanup?style=for-the-badge)](https://img.shields.io/github/forks/antrara/twitter-cleanup) [![Stars](https://img.shields.io/github/stars/antrara/twitter-cleanup?style=for-the-badge)](https://img.shields.io/github/stars/antrara/twitter-cleanup)
-
 # Twitter & Instagram Cleanup
 
-Twitter & Instagram Cleanup adalah skrip otomatisasi yang memungkinkan Anda untuk:
-- Unfollow semua akun
-- Unlike semua postingan
-- Unrepost semua postingan
-- Menghapus semua komentar
-- Menghapus akun secara permanen setelah semua tindakan selesai
-- Sekarang mendukung Instagram juga!
+![Logo](https://github.com/antrara/twitter-cleanup/assets/logo.png)
 
-> Jika Anda merasa proyek ini bermanfaat, silakan beri bintang ⭐ dan fork repository ini.
+[![Code Size](https://img.shields.io/github/languages/code-size/antrara/twitter-cleanup?style=for-the-badge)](https://github.com/antrara/twitter-cleanup)
+[![Forks](https://img.shields.io/github/forks/antrara/twitter-cleanup?style=for-the-badge)](https://github.com/antrara/twitter-cleanup/network/members)
+[![Stars](https://img.shields.io/github/stars/antrara/twitter-cleanup?style=for-the-badge)](https://github.com/antrara/twitter-cleanup/stargazers)
+[![License](https://img.shields.io/github/license/antrara/twitter-cleanup?style=for-the-badge)](https://github.com/antrara/twitter-cleanup/blob/main/LICENSE.md)
 
-[![github-stats-card](https://kasroudra-stats-card.onrender.com/repo?user=antrara&repo=twitter-cleanup&layout=compact&theme=vue)](https://github.com/KasRoudra/github-stats-card)
+## 📌 Overview
+**Twitter & Instagram Cleanup** adalah skrip otomatisasi canggih untuk membersihkan akun Twitter dan Instagram Anda secara menyeluruh. Dengan alat ini, Anda dapat dengan cepat menghapus jejak digital Anda, termasuk:
 
-## Installation 📥
+- 🔹 **Unfollow** semua akun
+- 🔹 **Unlike** dan **unrepost** semua postingan
+- 🔹 **Hapus semua komentar**
+- 🔹 **Hapus akun secara permanen** setelah semua tindakan selesai
+- 🔹 **Sekarang mendukung Instagram!**
 
-### Linux 🐧
+---
+## 🚀 Fitur Utama
+✅ **Dukungan untuk Twitter & Instagram**  
+✅ **Hapus semua aktivitas dengan satu perintah**  
+✅ **Antarmuka yang mudah digunakan**  
+✅ **Mendukung login API Key melalui halaman login**  
+✅ **Keamanan tinggi tanpa menyimpan data pengguna**  
+
+---
+## 📥 Instalasi
+
+### 🔹 Windows
 ```bash
+# Clone repository
 git clone https://github.com/antrara/twitter-cleanup.git
 cd twitter-cleanup
+
+# Install dependencies
 pip install -r requirements.txt
+
+# Jalankan skrip
 python cleanup.py
 ```
 
-### Windows 🪟
+### 🔹 Linux / MacOS
 ```bash
+# Clone repository
 git clone https://github.com/antrara/twitter-cleanup.git
 cd twitter-cleanup
-pip install -r requirements.txt
-python cleanup.py
-```
 
-### MacOS 🍎
-```bash
-git clone https://github.com/antrara/twitter-cleanup.git
-cd twitter-cleanup
+# Install dependencies
 python3 -m pip install -r requirements.txt
+
+# Jalankan skrip
 python3 cleanup.py
 ```
 
-## Features 🚀
-- ✅ Unfollow akun Twitter & Instagram
-- ✅ Unlike & unrepost semua postingan
-- ✅ Hapus semua komentar
-- ✅ Menghapus akun secara permanen
-- ✅ Mendukung login API Key langsung melalui halaman login
+---
+## 🛠 Cara Penggunaan
+1️⃣ **Jalankan skrip dengan perintah yang sesuai dengan OS Anda.**  
+2️⃣ **Masukkan API Key melalui halaman login.**  
+3️⃣ **Pilih aksi yang ingin dilakukan: Unfollow, Unlike, Unrepost, Hapus Komentar, atau Hapus Akun.**  
+4️⃣ **Konfirmasi tindakan dan biarkan skrip bekerja otomatis.**  
 
-## Contributing 🤝
-Kontribusi selalu diterima! Silakan buat pull request atau diskusi jika Anda memiliki ide baru.
+---
+## 🤝 Kontribusi
+Kami selalu menerima kontribusi dari komunitas! Jika Anda ingin menambahkan fitur baru atau memperbaiki bug:
+- Fork repository ini
+- Buat branch baru (`git checkout -b fitur-baru`)
+- Commit perubahan Anda (`git commit -m 'Menambahkan fitur X'`)
+- Push ke branch Anda (`git push origin fitur-baru`)
+- Buat Pull Request
 
-## License 📜
-[![License](https://img.shields.io/github/license/antrara/twitter-cleanup?style=for-the-badge)](https://github.com/antrara/twitter-cleanup/blob/main/LICENSE.md)
+---
+## 📜 Lisensi
+Proyek ini dilindungi di bawah lisensi [MIT License](https://github.com/antrara/twitter-cleanup/blob/main/LICENSE.md).
 
-## Star History ⭐
-[![Star History Chart](https://api.star-history.com/svg?repos=antrara/twitter-cleanup&type=Date)](https://star-history.com/#antrara/twitter-cleanup&Date)
+---
+## ⭐ Dukungan
+Jika Anda menyukai proyek ini, silakan beri bintang ⭐ untuk membantu lebih banyak orang menemukannya!
+
+[![Star History](https://api.star-history.com/svg?repos=antrara/twitter-cleanup&type=Date)](https://star-history.com/#antrara/twitter-cleanup)
 
