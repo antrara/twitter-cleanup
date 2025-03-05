@@ -11,4 +11,4 @@ Skrip ini memungkinkan Anda untuk mengelola akun Twitter secara otomatis, termas
 ## 📌 Cara Menggunakan
 1. Clone repository ini ke komputer Anda:
    ```sh
-   git clone https://github.com/username/twitter-cleanup.git
+   git clone https://github.com/antrara/twitter-cleanup.git
